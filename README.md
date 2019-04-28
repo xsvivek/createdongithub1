@@ -4,7 +4,7 @@ this was created on github website.
 
 
 new change... Instructions
-//commands for GIT 
+//commands for GIT.
 
 // To login........
 git config --global user.name "Your Username"
