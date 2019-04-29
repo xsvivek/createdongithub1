@@ -69,7 +69,7 @@ git push pehlaremote branch1   // This will finally push and make the changes (i
                                                             // You can now see on the github website that there is a new branch created named "branch1".
                                                             
 
-
+git clone <url> --branch <branch> --single-branch [<folder>]  // to download a specific branch ONLY. 
 
 
 
