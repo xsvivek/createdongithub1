@@ -71,7 +71,9 @@ git push pehlaremote branch1   // This will finally push and make the changes (i
 
 git clone <url> --branch <branch> --single-branch [<folder>]  // to download a specific branch ONLY. 
 
+--[no-]single-branch
 
+Clone only the history leading to the tip of a single branch, either specified by the --branch option or the primary branch remote’s HEAD points at. When creating a shallow clone with the --depth option, this is the default, unless --no-single-branch is given to fetch the histories near the tips of all branches. Further fetches into the resulting repository will only update the remote-tracking branch for the branch this option was used for the initial cloning. If the HEAD at the remote did not point at any branch when --single-branch clone was made, no remote-tracking branch is created.
 
 
 
